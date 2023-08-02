@@ -39,7 +39,10 @@ SECRET_KEY = 'django-insecure-0*#u(i%k3(fiiiu(#kljn4wnd7dhzx&=0m)pnc@t^r-kf!-^vf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://8000-brindle5-djangorest-5p8jl2sxo62.ws-eu102.gitpod.io/',
+    '8000-brindle5-djangorest-5p8jl2sxo62.ws-eu102.gitpod.io',
+    ]
 
 
 # Application definition
