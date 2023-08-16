@@ -65,7 +65,7 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [    
     '8000-brindle5-djangorest-5p8jl2sxo62.ws-eu102.gitpod.io',
